@@ -1,0 +1,38 @@
+/* put styles here */
+
+*{
+	font-family: 'Zilla Slab', serif;
+}
+
+body {
+    background-color: #dcdcdc !important;
+}
+
+.navbar{
+	margin-bottom:0px !important;
+}
+
+.login{
+	float:right !important;
+}
+
+.main-background{
+	background-color: white;
+	border-style: inset;
+}
+
+.navbar-background{
+	background-color: #082543 !important;
+	background-image : none  !important;
+}
+
+.flash{
+	text-align: center;
+}
+.flash li{
+	list-style: none;
+}
+
+.padding-bottom {
+	padding-bottom: 30px;
+}

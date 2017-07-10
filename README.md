@@ -1,6 +1,8 @@
 # music-playlist
 
-After having prerequsites installed (flask, sqlite, sqlalchemy etc..), Run 
+After having prerequsites installed (flask, sqlite, sqlalchemy etc..), 
+
+Run :
 
 `python server.py` 
 

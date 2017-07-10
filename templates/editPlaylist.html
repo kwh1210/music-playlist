@@ -1,0 +1,22 @@
+{% extends "main.html" %}
+
+{% include "header.html" %}
+{% block content %}
+
+
+<div class="container main-background">
+   <div class="row">
+      <div class="col-md-6">
+         <form action="#" method = "post">
+            <div class="form-group">
+               <label for="name">Name:</label>
+               <input required="required" pattern="*" type ="text" maxlength="50" class="form-control" name="name" value={{playlist.name}}>
+               <button type="submit" class="btn btn-default" id="submit" type="submit">Edit</button>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
+
+
+{% endblock %}

@@ -36,3 +36,17 @@ body {
 .padding-bottom {
 	padding-bottom: 30px;
 }
+
+.song-left{
+	font-weight: bold;
+	text-align :left;
+	float:left;
+}
+
+.songadd-right{
+	font-weight: bold;
+	text-align :right;
+	float:right;
+    margin-left: 30px;
+	
+}

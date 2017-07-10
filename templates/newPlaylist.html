@@ -1,19 +1,19 @@
 {% extends "main.html" %}
 {% block content %}
 {% include "header.html" %}
-	<div class="container main-background">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-1 padding-top">
-				<form action="#" method = "post">
-					<div class="form-group">
-					<label for="name">Name:</label>
-					<input type ="text" class="form-control" maxlength="100" name="name">
-					<div class="padding-bottom"></div>
-					<button type="submit" id="submit" type="submit">
-					<span ></span>Create</button>
-					</div>
-				</form>
-			</div>
+<div class="container main-background">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-1 padding-top">
+			<form action="#" method = "post">
+				<div class="form-group">
+				<label for="name">Name:</label>
+				<input required="required" pattern="*"  type ="text" class="form-control" maxlength="100" name="name">
+				<div class="padding-bottom"></div>
+				<button type="submit" id="submit" type="submit">
+				<span ></span>Create</button>
+				</div>
+			</form>
 		</div>
 	</div>
+</div>
 {% endblock %}

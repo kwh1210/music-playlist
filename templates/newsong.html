@@ -1,0 +1,24 @@
+{% extends "main.html" %}
+
+{% include "header.html" %}
+{% block content %}
+
+<div class="container main-background">
+   <div class="row">
+      <div class="col-md-6">
+         <form action="#" method = "post">
+            <div class="form-group">
+               <label for="name">Name:</label>
+               <input required="required" pattern="*" type ="text" maxlength="50" class="form-control" name="name" placeholder="Name of the song">
+               <label for="description">Artist:</label>
+               <input class="form-control" maxlength="50" name="artist" placeholder="Name of the Artist"></input>
+               <label for="description">Album:</label>
+               <input class="form-control" maxlength="50" name="album" placeholder="Name of the Album"></input>
+               <button type="submit" class="btn btn-default" id="submit" type="submit">Create</button>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
+
+{% endblock %}
